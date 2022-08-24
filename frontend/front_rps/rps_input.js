@@ -180,7 +180,7 @@ function hrefLink() {
   );
 
   let url =
-    "http://ec2-43-200-137-107.ap-northeast-2.compute.amazonaws.com:8081/dishes?" +
+    "https://mwomeokji.shop/dishes?" +
     query;
 
   fetch(url)
