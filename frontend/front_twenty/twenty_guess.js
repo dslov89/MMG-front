@@ -11,7 +11,7 @@ function sleep(ms) {
 
 //fetch 시작
 async function getjson(){
-  const response = await fetch(`https://dzonsafdog6ru.cloudfront.net/questions/dishes`);
+  const response = await fetch(`http://ec2-43-200-137-107.ap-northeast-2.compute.amazonaws.com/questions/dishes`);
   const data = await response.json();
   console.log(data.dishes);
   food_data = data;
