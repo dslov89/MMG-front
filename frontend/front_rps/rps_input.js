@@ -196,7 +196,7 @@ async function connect_server() {
   localStorage.setItem("menu", winner_menu);
   localStorage.setItem("src", winner_src);
 
-  location.href = "./rps_loading.html";
+  // location.href = "./rps_loading.html";
 }
 
 function hrefLink() {
